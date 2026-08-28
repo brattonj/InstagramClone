@@ -1,3 +1,13 @@
+/**
+ * Post.js
+ * 
+ * Individual post display component showing photos or videos with metadata and interactions.
+ * Displays post creator info, like/unlike functionality, comment count, caption with @mention parsing,
+ * and share button. Handles video playback with mute control and auto-play based on viewport visibility.
+ * Provides a bottom sheet menu for viewing creator profile or deleting own posts. Supports both
+ * feed posts and standalone post views with notification handling.
+ */
+
 import { Entypo, Feather, FontAwesome5 } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
 import { Video } from 'expo-av';
