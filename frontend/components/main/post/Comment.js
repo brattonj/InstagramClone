@@ -1,3 +1,12 @@
+/**
+ * Comment.js
+ * 
+ * Post comments screen component displaying all comments for a specific post. Shows commenter profile
+ * images, names, comment text, and timestamps. Allows users to add new comments via a text input at the bottom.
+ * Fetches user data for commenters, sends notifications to post owners when commented on, and supports
+ * navigation to commenter profiles.
+ */
+
 import { FontAwesome5 } from '@expo/vector-icons';
 import firebase from 'firebase';
 import React, { useEffect, useState } from 'react';
