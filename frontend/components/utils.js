@@ -1,3 +1,12 @@
+/**
+ * utils.js
+ * 
+ * Utility functions for the Instagram Clone app. Currently exports the timeDifference function
+ * which calculates and formats the time elapsed between two timestamps, returning human-readable
+ * strings like "5 minutes ago", "2 hours ago", etc. Used throughout the app to display relative
+ * timestamps for posts, comments, and messages.
+ */
+
 function timeDifference(current, previous) {
 
     var msPerMinute = 60 * 1000;
