@@ -1,3 +1,12 @@
+/**
+ * Edit.js
+ * 
+ * User profile editing screen component allowing users to update their profile information.
+ * Enables changing profile picture, name, and description. Handles image upload to Firebase Storage
+ * and updates user data in Firestore. Provides a logout button for signing out. Displays a checkmark
+ * button in the header to save changes.
+ */
+
 import { Feather, FontAwesome5 } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import * as Updates from 'expo-updates';
