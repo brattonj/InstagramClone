@@ -1,3 +1,12 @@
+/**
+ * Register.js
+ * 
+ * User registration screen component for creating new accounts. Provides form inputs for username,
+ * name, email, and password with validation. Checks for duplicate usernames in Firestore, validates
+ * password length, and creates new user accounts with Firebase Authentication. Displays error messages
+ * via Snackbar notifications. Includes a link to navigate to the login screen for existing users.
+ */
+
 import firebase from 'firebase';
 import React, { useState } from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
