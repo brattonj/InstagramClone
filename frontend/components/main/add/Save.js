@@ -1,3 +1,12 @@
+/**
+ * Save.js
+ * 
+ * Post creation and upload screen component. Allows users to add captions with @mentions to photos
+ * or videos captured/selected from the camera screen. Handles media upload to Firebase Storage,
+ * saves post metadata to Firestore, and sends notifications to mentioned users. Features a mentions
+ * text input with autocomplete suggestions for usernames. Displays upload progress and error handling.
+ */
+
 import { Feather } from '@expo/vector-icons';
 import { Video } from 'expo-av';
 import firebase from 'firebase';
