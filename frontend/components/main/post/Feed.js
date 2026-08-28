@@ -1,3 +1,12 @@
+/**
+ * Feed.js
+ * 
+ * Main feed screen component displaying posts from users that the current user follows.
+ * Implements infinite scrolling with pull-to-refresh functionality. Tracks which posts are in viewport
+ * to manage video playback (muting/unmuting). Provides a bottom sheet menu for viewing post creator profiles
+ * or deleting own posts. Sorts posts by creation time in descending order.
+ */
+
 import firebase from 'firebase'
 import React, { useEffect, useRef, useState } from 'react'
 import { FlatList, RefreshControl, Text, View } from 'react-native'
