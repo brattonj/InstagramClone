@@ -1,3 +1,11 @@
+/**
+ * styles.js
+ * 
+ * Centralized stylesheet definitions for the Instagram Clone app using React Native's StyleSheet API.
+ * Exports five style objects: utils (common utilities), navbar (navigation bar styles), container (layout containers),
+ * form (form input styles), and text (typography styles). These styles are used throughout the app components
+ * to maintain consistent styling and spacing.
+ */
 
 import { StyleSheet } from 'react-native'
 const utils = StyleSheet.create({
