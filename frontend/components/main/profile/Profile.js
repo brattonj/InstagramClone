@@ -1,3 +1,13 @@
+/**
+ * Profile.js
+ * 
+ * User profile display screen component showing user information and their posts.
+ * Displays profile picture, name, description, follower/following counts, and post count.
+ * For the current user, shows an "Edit Profile" button. For other users, shows "Follow/Following"
+ * and "Message" buttons. Displays a grid of user's posts with thumbnails. Handles follow/unfollow
+ * functionality and sends notifications to followed users.
+ */
+
 import { FontAwesome5 } from '@expo/vector-icons';
 import firebase from 'firebase';
 import React, { useEffect, useState } from 'react';
