@@ -1,0 +1,1 @@
+Likes are a simple yet powerful way for users to show appreciation and support for content they enjoy. The like count serves as a metric for measuring engagement and helps surface popular content to a wider audience.
