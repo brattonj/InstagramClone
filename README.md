@@ -72,6 +72,12 @@ You can follow the youtube series in the following [link](https://www.youtube.co
 
 Why did the Instagram Clone developer go to therapy? Because they had too many issues to handle! 📸
 
+## 💡 Inspiration
+
+> "The studio should be a place where the artist feels at home, where they can experiment freely." — Brian Eno
+
+> "If you want rainbow, you gotta put up with the rain." — Dolly Parton
+
 ## 🆕 Getting Started
 
 - ### **Prerequisites**
