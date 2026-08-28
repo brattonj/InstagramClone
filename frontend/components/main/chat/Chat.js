@@ -1,3 +1,12 @@
+/**
+ * Chat.js
+ * 
+ * Individual chat conversation screen component. Displays real-time messages between two users
+ * with automatic scrolling to the latest message. Allows sending text messages and shared posts.
+ * Handles chat creation if one doesn't exist between users. Updates chat read status and sends
+ * notifications to the recipient. Displays user profile images and message timestamps.
+ */
+
 import { FontAwesome5 } from '@expo/vector-icons';
 import firebase from 'firebase';
 import React, { useEffect, useState } from 'react';
