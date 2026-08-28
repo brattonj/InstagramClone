@@ -1,3 +1,11 @@
+/**
+ * Login.js
+ * 
+ * Authentication screen component for user login. Provides a form with email and password inputs
+ * and a sign-in button that authenticates users with Firebase. Also includes a link to navigate
+ * to the registration screen for new users.
+ */
+
 import firebase from 'firebase';
 import React, { useState } from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
