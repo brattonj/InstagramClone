@@ -1,3 +1,13 @@
+/**
+ * Camera.js
+ * 
+ * Camera and media capture screen component for taking photos and recording videos.
+ * Provides camera controls including flash toggle, camera flip, and capture buttons.
+ * Displays a gallery of recent media files allowing users to select existing photos/videos.
+ * Generates video thumbnails and navigates to the Save screen with captured or selected media.
+ * Handles permissions for camera, microphone, and media library access.
+ */
+
 import { Feather } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
 import { Audio } from "expo-av";
