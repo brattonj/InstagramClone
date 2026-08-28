@@ -1,3 +1,13 @@
+/**
+ * Main.js
+ * 
+ * Main navigation component that serves as the primary hub for the Instagram Clone app.
+ * Implements a material bottom tab navigator with five main screens: Feed, Search, Camera,
+ * Chat, and Profile. Handles push notifications and redirects users to appropriate screens
+ * based on notification type. Monitors user ban status and displays the Blocked screen if needed.
+ * Also tracks unread chat status and displays a notification badge on the chat tab.
+ */
+
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import * as Notifications from 'expo-notifications';
 import firebase from 'firebase';
