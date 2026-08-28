@@ -1,3 +1,12 @@
+/**
+ * Search.js
+ * 
+ * User search screen component allowing users to find other users by username.
+ * Displays a search input that queries users in real-time as the user types.
+ * Shows search results in a list with user profile images, usernames, and names.
+ * Allows navigation to user profiles by tapping on search results.
+ */
+
 import { FontAwesome5 } from '@expo/vector-icons';
 import React, { useState } from 'react';
 import { FlatList, Image, Text, TextInput, TouchableOpacity, View } from 'react-native';
