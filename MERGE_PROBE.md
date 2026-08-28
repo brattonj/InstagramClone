@@ -1,0 +1,1 @@
+Photo sharing is a core feature of social media platforms that allows users to upload and distribute images to their followers. Users can organize their photos into albums or galleries, making it easy for others to browse their visual content. Photo sharing enables users to capture and preserve memories while building connections with their community through visual storytelling.
