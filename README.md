@@ -68,6 +68,10 @@ In the [master](https://github.com/SimCoderYoutube/InstagramClone/tree/master) b
 
 You can follow the youtube series in the following [link](https://www.youtube.com/watch?v=xE8UEX7vXVQ&list=PLxabZQCAe5fgatwOQny9wKJVs4YD6xkf1)
 
+## 😄 Fun Fact
+
+Why did the Instagram Clone developer go to therapy? Because they had too many issues to handle! 📸
+
 ## 🆕 Getting Started
 
 - ### **Prerequisites**
