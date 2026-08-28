@@ -1,3 +1,12 @@
+/**
+ * List.js
+ * 
+ * Chat list screen component displaying all conversations for the current user. Shows the other user's
+ * profile image, name, last message, and timestamp for each chat. Highlights unread chats with a blue background.
+ * Allows navigation to individual chat conversations or sharing posts to multiple chats. Fetches user data
+ * for chat participants and displays a message when no chats are available.
+ */
+
 import { FontAwesome5 } from '@expo/vector-icons';
 import firebase from 'firebase';
 import React, { useEffect, useState } from 'react';
