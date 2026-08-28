@@ -1,0 +1,1 @@
+Captions provide context and meaning to photos by allowing users to add descriptive text alongside their images. Well-written captions can enhance engagement by telling a story, asking questions, or sharing insights that resonate with the audience.
