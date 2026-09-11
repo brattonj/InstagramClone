@@ -30,6 +30,11 @@ service cloud.firestore {
       allow write: if request.auth.uid != null;
         allow write, update: if isAdmin();
     }
+    match /posts/{user}/userPosts/{postId}/comments/{commentId}/likes/{likeId} {
+      allow read: if true;
+      allow write: if request.auth.uid == likeId;
+        allow write, update: if isAdmin();
+    }
     
     match /feed/{documents=**}{
       allow read, write: if request.auth.uid != null;
