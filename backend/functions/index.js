@@ -74,3 +74,31 @@ exports.addComment = functions.firestore.document('/posts/{creatorId}/userPosts/
                 commentsCount: admin.firestore.FieldValue.increment(1)
             })
     })
+
+exports.addCommentLike = functions.firestore.document('/posts/{creatorId}/userPosts/{postId}/comments/{commentId}/likes/{userId}')
+    .onCreate((snap, context) => {
+        return db
+            .collection("posts")
+            .doc(context.params.creatorId)
+            .collection("userPosts")
+            .doc(context.params.postId)
+            .collection("comments")
+            .doc(context.params.commentId)
+            .update({
+                likesCount: admin.firestore.FieldValue.increment(1)
+            })
+    });
+
+exports.removeCommentLike = functions.firestore.document('/posts/{creatorId}/userPosts/{postId}/comments/{commentId}/likes/{userId}')
+    .onDelete((snap, context) => {
+        return db
+            .collection("posts")
+            .doc(context.params.creatorId)
+            .collection("userPosts")
+            .doc(context.params.postId)
+            .collection("comments")
+            .doc(context.params.commentId)
+            .update({
+                likesCount: admin.firestore.FieldValue.increment(-1)
+            })
+    })
